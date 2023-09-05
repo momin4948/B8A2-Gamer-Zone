@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-/* Primary colors */
+/*============
+CSS Variables
+==============*/
 
 :root {
   --primary-color: #ff42a5;
@@ -17,8 +19,6 @@
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-
-  /* Font Weight */
 
   --fw-normal: 400;
   --fw-medium: 500;
@@ -566,6 +566,7 @@ Media Query Section
 =================== */
 
 /* Mobile Devices */
+
 @media screen and (max-width: 576px) {
   /* Global Styles */
   .container {
@@ -589,8 +590,8 @@ Media Query Section
   }
 
   /* =============
-      Banner Section
-      ================ */
+Banner Section
+================ */
   #banner {
     background-image: none;
   }
@@ -619,9 +620,9 @@ Media Query Section
     line-height: 100px;
   }
 
-  /* ============
-      Gamer Section
-      =============== */
+  /*=========
+Gamer Section
+=============== */
   #gamer {
     background: none;
     padding: 0;
@@ -635,9 +636,9 @@ Media Query Section
     text-align: center;
   }
 
-  /* ============
-      Video Section
-      =============== */
+  /*===========
+Video Section
+=============== */
   .section-title h2 {
     line-height: 1;
   }
@@ -654,9 +655,9 @@ Media Query Section
     text-align: center;
   }
 
-  /* =====================
-      Play Instantly Section
-      ======================== */
+  /*=====================
+Play Instantly Section
+======================== */
   #play-instantly .container {
     flex-direction: column;
   }
@@ -678,9 +679,9 @@ Media Query Section
     width: 50%;
   }
 
-  /* ===================
-      Online Game Section
-      ====================== */
+  /*==================
+Online Game Section
+====================== */
   #online-game .container {
     flex-direction: column-reverse;
   }
@@ -703,9 +704,9 @@ Media Query Section
     text-align: center;
   }
 
-  /* =============
-      Career Section
-      ================ */
+  /* ===========
+Career Section
+================ */
   #career {
     background-image: none;
     padding: 120px 0;
@@ -728,9 +729,9 @@ Media Query Section
     font-size: 18px;
   }
 
-  /* =============
-      Footer Section
-      ================ */
+  /*===========
+Footer Section
+================ */
   .footer-menu ul {
     gap: 30px;
     flex-wrap: wrap;
